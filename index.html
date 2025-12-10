@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Relógio Digital Profissional</title>
+    <link rel="stylesheet" href="src/css/style.css" />
+</head>
+<body>
+
+    <header>
+        <h1>Relógio Digital</h1>
+        <button id="toggle-theme">Alternar Tema</button>
+    </header>
+
+    <main>
+
+        <!-- RELÓGIO -->
+        <section class="card">
+            <h2>Hora Atual</h2>
+            <div id="clock">00:00:00</div>
+            <div id="date"></div>
+        </section>
+
+        <!-- CALENDÁRIO -->
+        <section class="card">
+            <h2>Calendário</h2>
+            <div id="calendar"></div>
+        </section>
+
+        <!-- CRONÔMETRO -->
+        <section class="card">
+            <h2>Cronômetro</h2>
+            <div id="stopwatch">00:00:00</div>
+
+            <div class="actions">
+                <button id="startSW">Iniciar</button>
+                <button id="pauseSW">Pausar</button>
+                <button id="resetSW">Resetar</button>
+            </div>
+        </section>
+
+        <!-- TIMER -->
+        <section class="card">
+            <h2>Timer</h2>
+
+            <input type="number" id="timerInput" placeholder="Segundos" />
+
+            <div id="timerDisplay">00:00</div>
+
+            <div class="actions">
+                <button id="startTimer">Iniciar</button>
+                <button id="pauseTimer">Pausar</button>
+                <button id="resetTimer">Resetar</button>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="src/js/script.js"></script>
+</body>
+</html>
