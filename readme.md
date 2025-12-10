@@ -7,9 +7,6 @@ Desenvolvido com foco em organização, UX simples e código limpo.
 
 ## 🚀 Demonstração
 
-Prévia do projeto:  
-(adicione aqui seu preview.png depois)
-
 ---
 
 ## ✨ Funcionalidades
