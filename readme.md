@@ -1,38 +1,51 @@
-# Lista de Tarefas (To-Do List)
+# Relógio Digital Completo
 
-Uma aplicação simples, moderna e responsiva de lista de tarefas, desenvolvida para demonstrar boas práticas em HTML, CSS e JavaScript.  
-O projeto inclui persistência via LocalStorage, filtros dinâmicos, edição inline, animações suaves e suporte a tema escuro.
+Aplicação moderna e responsiva contendo Relógio Digital em tempo real, Calendário, Cronômetro, Timer e suporte a Tema Claro/Escuro com persistência.  
+Desenvolvido com foco em organização, UX simples e código limpo.
 
 ---
 
 ## 🚀 Demonstração
 
-Acesse o projeto online:  
-**https://bianca-santoss.github.io/to-do-list/**
+Prévia do projeto:  
+(adicione aqui seu preview.png depois)
 
 ---
 
 ## ✨ Funcionalidades
 
-- **Adicionar tarefas**
-- **Salvar automaticamente no LocalStorage**
-- **Editar tarefas inline, com clique direto no texto**
-- **Marcar como concluída**
-- **Remover tarefas**
-- **Filtros inteligentes:**  
-  - Todos  
-  - Feitos  
-  - Pendentes
-- **Animações suaves**
-- **Tema claro/escuro com persistência**
-- **Layout responsivo para mobile e desktop**
+### Relógio
+- Exibição da hora em tempo real
+- Data completa com dia da semana
+- Atualização automática
+
+### Calendário
+- Exibe a data atual em formato detalhado
+
+### Cronômetro (Stopwatch)
+- Iniciar, pausar e zerar
+- Contagem em horas, minutos e segundos
+- Operação contínua
+
+### Timer
+- Configuração por segundos
+- Exibição no formato MM:SS
+- Contagem regressiva com alerta final
+
+### Tema Claro/Escuro
+- Alternância manual
+- Salvo automaticamente via LocalStorage
+
+### Interface
+- Layout moderno e minimalista  
+- Cards responsivos  
+- Cores suaves  
+- Animações leves  
 
 ---
 
 ## 🧩 Tecnologias Utilizadas
 
 - **HTML5**
-- **CSS3 (Flexbox, variáveis, animações, responsividade)**
-- **JavaScript Vanilla (DOM, eventos, LocalStorage)**
-
----
+- **CSS3 (grid, variáveis, responsividade)**
+- **JavaScript (DOM, eventos, timers, LocalStorage)**
